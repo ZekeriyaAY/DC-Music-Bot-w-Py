@@ -51,7 +51,7 @@ async def on_message(message):
             await message.channel.send(cevap)
 
     if 'dgko' in message.content.lower():
-        await message.channel.send("Mutlu yıllar :D")
+        await message.channel.send("Mutlu yıllar Bebek:D")
 
 
 
