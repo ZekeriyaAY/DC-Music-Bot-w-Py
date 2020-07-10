@@ -1,2 +1,4 @@
-# Initial page
+# Bot Yardım
+
+Bot yardım komutları
 
