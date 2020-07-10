@@ -1,6 +1,0 @@
-# Untitled
-
-selam
-
-
-
