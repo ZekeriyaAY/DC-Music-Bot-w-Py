@@ -3,4 +3,5 @@ pip
 aiohttp ~= 3.6.2
 websockets
 ffmpeg
+youtube-dl
 PyNaCl
