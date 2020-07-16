@@ -19,7 +19,7 @@ async def on_ready():
         if guild == "GUILD":
             break
     print(f'Ping: {round(bot.latency * 1000)}')
-    await bot.change_presence(activity=discord.Game(name=f'COD Müzik Botu [{BOT_PREFIX}yardımmüzik] | created by zek'))
+    await bot.change_presence(activity=discord.Game(name=f'COD Müzik Bot [{BOT_PREFIX}yardımmüzik] | created by zek'))
     print("-------------------------------------------")
 
 
