@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Bot Yardım](README.md)
+* [🤖Discord Notlarım](README.md)
 
