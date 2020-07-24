@@ -65,13 +65,18 @@ class YTDLSource(discord.PCMVolumeTransformer):
 
     @classmethod
     async def from_url(cls, url, *, loop=None, stream=False):
+        await ctx.send("sorun 2")
         loop = loop or asyncio.get_event_loop()
+        await ctx.send("sorun loop")
         data = await loop.run_in_executor(None, lambda: ytdl.extract_info(url, download=not stream))
-
+        await ctx.send("sorun data")
+        
         if 'entries' in data:
             data = data['entries'][0]
-
+            await ctx.send("sorun if")
+        await ctx.send("sorun if sonrası")
         filename = data['url'] if stream else ytdl.prepare_filename(data)
+        await ctx.send("sorun filename")
 
         return cls(discord.FFmpegPCMAudio(filename, **ffmpeg_options), data=data)
 
@@ -84,7 +89,6 @@ class Music(commands.Cog):
     async def çal(self, ctx, *, url):
         """Dosyayı indirmeden direk oynatır"""
         async with ctx.typing():
-            await ctx.send("sorun 2")
             player = await YTDLSource.from_url(url, loop=self.bot.loop, stream=True)
             await ctx.send("sorun player")
             ctx.voice_client.play(player, after=lambda e: print('Player error: %s' % e) if e else None)
