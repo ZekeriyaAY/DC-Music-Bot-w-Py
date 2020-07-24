@@ -83,10 +83,12 @@ class Music(commands.Cog):
     @commands.command()
     async def çal(self, ctx, *, url):
         """Dosyayı indirmeden direk oynatır"""
-        await ctx.send("sorun 2")
         async with ctx.typing():
+            await ctx.send("sorun 2")
             player = await YTDLSource.from_url(url, loop=self.bot.loop, stream=True)
+            await ctx.send("sorun player")
             ctx.voice_client.play(player, after=lambda e: print('Player error: %s' % e) if e else None)
+            await ctx.send("sorun play")
         await ctx.send("sorun 1")
         await ctx.send(f'**Müzik Çalıyor** :headphones: {player.title}')
 
