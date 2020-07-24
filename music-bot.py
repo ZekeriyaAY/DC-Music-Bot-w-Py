@@ -62,7 +62,6 @@ class YTDLSource(discord.PCMVolumeTransformer):
 
         self.title = data.get('title')
         self.url = data.get('url')
-        await ctx.send("sorun def")
     
     @classmethod
     async def from_url(cls, url, *, loop=None, stream=False):
