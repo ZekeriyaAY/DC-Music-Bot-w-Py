@@ -14,6 +14,7 @@ description: >-
   * Sonuçlar, konuların alt başlıklarını da içerir.
 * Tüm içeriklerimin başlıkları **sol taraftaki menüde** bulunuyor.
 * Bulunduğun sayfadaki konu/alt başlıklarına **sol taraftaki menüden** ulaşabilirsin.
+* [DC](https://discordapp.com/api/guilds/320626822977028096/widget.json)
 
 {% hint style="success" %}
 Her sayfanın en altında bulunan memnuniyet anketi \(_**"WAS THIS PAGE HELPFUL?"**_ \) ile sayfanın gelişmesine yardımcı olabilirsin.
