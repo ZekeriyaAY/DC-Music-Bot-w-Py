@@ -13,7 +13,7 @@ description: >-
   * Konu ve/veya konu ile ilgili kelime/terimleri aratarak bulabilirsin.
   * Sonuçlar, konuların alt başlıklarını da içerir.
 * Tüm içeriklerimin başlıkları **sol taraftaki menüde** bulunuyor.
-* Bulunduğun sayfadaki konu/alt başlıklarına **sol taraftaki menüden** ulaşabilirsin.
+* Bulunduğun sayfadaki konu/alt başlıklarına **sağ taraftaki menüden** ulaşabilirsin.
 
 {% hint style="success" %}
 Her sayfanın en altında bulunan memnuniyet anketi \(_**"WAS THIS PAGE HELPFUL?"**_ \) ile sayfanın gelişmesine yardımcı olabilirsin.
